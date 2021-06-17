@@ -17,12 +17,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip >=18.1
   run:
-    - python
-    - google-api-core-grpc >=1.14.0,<2.0.0dev
-    - enum34
+    - python >=3.6
+    - google-api-core-grpc >=1.21.0,<2.0.0dev
+    - proto-plus >=1.4.0
+    - libcst >=0.2.5
 
 test:
   imports:
