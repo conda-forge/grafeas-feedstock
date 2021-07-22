@@ -1,6 +1,6 @@
 {% set name = "grafeas" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "58c5a59e73754ecd416ac73085370094f27819a7558468402bc35b4b02ee6a43" %}
+{% set version = "1.1.1" %}
+{% set sha256 = "aa2327a48b8cff5d13f3bef047331727f8ab8b1d8921d30577011bb4dfc87807" %}
 
 package:
   name: {{ name|lower }}
@@ -21,9 +21,9 @@ requirements:
     - pip >=18.1
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.21.0,<2.0.0dev
+    - google-api-core-grpc >=1.21.0,<3.0.0dev
     - proto-plus >=1.4.0
-    - libcst >=0.2.5
+    - packaging >=14.3
 
 test:
   imports:
