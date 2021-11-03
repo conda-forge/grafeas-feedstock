@@ -1,6 +1,6 @@
 {% set name = "grafeas" %}
-{% set version = "1.3.1" %}
-{% set sha256 = "db72c52d254c1c65bdd6fd6de515e56e4f8e274bb78a41c53b6044be173e0f1b" %}
+{% set version = "1.4.0" %}
+{% set sha256 = "ab51a67d980edcc9427ce10adf875d92af6a8792b58978d36ec56a157bc181c3" %}
 
 package:
   name: {{ name|lower }}
