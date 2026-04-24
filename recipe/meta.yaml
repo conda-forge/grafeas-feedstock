@@ -1,13 +1,13 @@
 {% set name = "grafeas" %}
-{% set version = "1.10.1" %}
-{% set sha256 = "c6c9271319614912fbc9c1148bd01d0eae6a7119ded03c08f1406f2b24cb617d" %}
+{% set version = "1.13.0" %}
+{% set sha256 = "bd0c8ef71613ea37f5f2e3783d086232c4c1db2a5c813fdca6ecaf68c06310cf" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
